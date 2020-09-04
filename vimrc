@@ -5,6 +5,9 @@ Plug 'scrooloose/nerdtree'
 Plug 'preservim/nerdcommenter'
 Plug 'mattn/emmet-vim'
 Plug 'fatih/vim-go'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+Plug 'junegunn/vim-easy-align'
 
 call plug#end()
 
@@ -25,6 +28,7 @@ autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
 colorscheme onedark
 syntax on
 set number
+set hlsearch
 highlight Normal ctermbg=None
 highlight LineNr ctermfg=DarkGrey
 let NERDTreeShowHidden=1
