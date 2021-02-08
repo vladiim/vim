@@ -5,6 +5,8 @@ call plug#begin()
   Plug 'vim-airline/vim-airline-themes'
   Plug 'preservim/nerdcommenter'
   Plug 'mattn/emmet-vim'
+	Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+	Plug 'junegunn/fzf.vim'
   Plug 'fatih/vim-go'
   Plug 'junegunn/fzf'
   Plug 'junegunn/vim-easy-align'
