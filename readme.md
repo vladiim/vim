@@ -20,6 +20,12 @@ fi
 * `curl -fLo '~/.vim/autoload/plug.vim' --create-dirs \
     'https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'`
 
+* curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+
+* curl -LSso ~/.vim/colors/onedark.vim https://raw.githubusercontent.com/joshdick/onedark.vim/main/autoload/onedark.vim
+
 * Open file `vi vimrc`
+
+* Run :so ./vimrc
 
 * ...and install plugs `:PlugInstall`
